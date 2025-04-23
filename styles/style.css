@@ -11,6 +11,12 @@
 .nav{
     grid-area: nav;
 }
+.ul-nav{
+    list-style: circle;
+}
+.li-nav{
+    list-style-type: none;
+}
 .a{
     grid-area: a;
 }
@@ -37,7 +43,7 @@
     margin-bottom: 90px;
     color: white;
     height: 757px;
-    background-image: url('cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-size: cover;
 }
 .cover-black{
@@ -109,7 +115,7 @@
 
 
 .lot-1{
-    background-image: url("card-lot-01.jpg");
+    background-image: url("../images/card-lot-01.jpg");
     width: 334px;
     height: 596px;
     background-position: center;
@@ -146,7 +152,7 @@
 }
 
 .lot-2{
-    background-image: url("card-lot-02.jpg");
+    background-image: url("../images/card-lot-02.jpg");
     width: 334px;
     height: 596px;
     background-position: center;
@@ -183,7 +189,7 @@
 }
 
 .lot-3{
-    background-image: url("card-lot-03.jpg");
+    background-image: url("../images/card-lot-03.jpg");
     width: 334px;
     height: 596px;
     background-position: center;
