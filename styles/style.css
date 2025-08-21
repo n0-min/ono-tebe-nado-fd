@@ -6,13 +6,15 @@
 .header-placement{
     display: flex;
     align-content: center;
-    justify-content: space-between;
     width: 1000px;
     margin-left: 50px;
 }
 .nav{
     font-size: 18px;
     align-content: center;
+    margin-right: 36px;
+    text-wrap: nowrap;
+    word-spacing: 5px;
 }
 .ul-nav{
     list-style: circle;
@@ -27,13 +29,13 @@
     font-size: 18px;
     font-style: normal;
     line-height: 24px;
+    margin-left: 184px;
 }
 .logo-black{
     width: 148px;
     height: 105px;
-    position: absolute;
-    left: 624px;
 }
+
 .header ul{
     display: flex;
     gap: 30px;
@@ -78,10 +80,9 @@
     text-align: center;
 }
 .right{
-    margin-left: 20px;
-    width: 1000px;
     display: block;
     text-align: right;
+    margin-right: -0.3em;
 }
 .description{
     position: relative;
@@ -96,7 +97,7 @@
 }
 .description-text{
     font-size: 22px;
-    word-spacing: 22px;
+    word-spacing: 19px;
     text-transform: uppercase;
 
 }
@@ -142,6 +143,7 @@
     background-size: 171%;
     background-repeat: no-repeat;
     color:white;
+    display: grid;
 }
 .cover-lot{
     background: rgba(0 0 0 / 0.5);
@@ -190,7 +192,6 @@
     width: 1052px;
     margin-left: 24px;
     padding-top: 35px;
-    padding-bottom: 10px;
     display: flex;
     gap: 72px;
 }
@@ -235,10 +236,18 @@
     align-items: start;
     justify-content: space-between;
 }
+.address-footer{
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+    width: 240px;
+}
 .nav-footer{
     list-style: none;
     text-align: center;
     font-size: 18px;
+    width: 164px;
+
 }
 .apps{
     list-style: none;
